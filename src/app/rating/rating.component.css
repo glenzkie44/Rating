@@ -1,0 +1,48 @@
+.card{
+    margin-top: 3rem;
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+img{
+    margin-left: 1rem;
+    height:32rem;
+    margin-top: .5rem;
+    margin-left: .8rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+p{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 60%;
+    margin-left: 30px;
+}
+h1{
+    margin-left: 4.7rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 217, 0);
+}
+.unselected{
+   background-color: rgb(185, 179, 179);
+}
+.selected{
+    background: radial-gradient(circle, rgb(151, 241, 5) 10%, rgba(51,57,51,1) 87%);
+}

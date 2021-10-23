@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/fi.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2>Suicide Squad: Kill the Justice League</h2>
+                    <p>Suicide Squad: Kill the Justice League is a genre-bending action-adventure shooter video game set in an open world based on Metropolis. The game features four playable characters: Harley Quinn, Deadshot, Captain Boomerang, and King Shark. While it can be played solo, the game also features a four-player cooperative multiplayer mode. When played solo, players can switch between characters at will while the other characters are controlled by AI.
+                     <div class="all">  
+                    <h1> Rating: {{rate}} of 5</h1>
+                        <span  *ngFor="let num of fakeArray; let i = index">
+                            <span *ngIf="rate > i; else elseBlock">
+                                <button class="btn selected" (click)="onClick(i+1)"></button>
+                            </span>
+                            <ng-template #elseBlock>
+                                <button class="btn unselected" (click)="onClick(i+1)"></button>
+                            </ng-template>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
